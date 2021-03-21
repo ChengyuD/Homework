@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #c9ccc6c2;
+    font-size: 48px;
+}
+
+.list {
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    justify-content: flex-end;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cover {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.benifit {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 10px 5px;
+    padding: 0px 20px 20px;
+    float: right;
+    width: 25%;
+    height: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: white;
+    text-align: left;
+}
+
+.benifit h3 {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 25px auto;
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+.lead img,
+.brand img
+.cost img {
+    list-style-position: inside;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    max-width: 100%;
+}
+
+article {
+    float: left;
+    position: relative;
+    margin: 0px 15px 20px 20px;
+    padding: 50px;
+    height: 300px;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+article img {
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+footer {
+    padding: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: inline-flex;
+    }
+}
